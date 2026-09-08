@@ -1,3 +1,136 @@
 body {
-    background-color:gray;
+    background-color: #393c40;
+    color: white;
+}
+
+.mainsection {
+    text-align: center;
+}
+
+.mainsection2 {
+    text-align: center;
+    clear: both;
+}
+
+.gridSystem {
+    background-color: #505357;
+    color: white;
+    margin: 10px;
+}
+
+.gridSystem2 {
+    background-color: #505357;
+    color: white;
+    margin: 10px;
+}
+
+.middletext {
+    background-color: #68696b;
+    color: white;
+    clear: both;
+    margin: 10px;
+}
+
+.middletext2 {
+    background-color: #68696b;
+    color: white;
+    clear: both;
+    margin: 10px;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("https://t3.ftcdn.net/jpg/03/48/91/92/360_F_348919233_S2C1VQ5xbJQCzIDkSJ20lBHQiLX9DYvW.jpg");
+
+  /* Set a specific height */
+  min-height: 900px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+  text-align: center;
+}
+
+.parallax2 {
+    background-image: url("https://cdn.dribbble.com/userupload/10093675/file/original-1b21b37a22e06d64fb50e8658fa1d46e.jpg?resize=1600x1200");
+    min-height: 825px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    color: black;
+    text-align: center;
+}
+
+.img-container {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* Optional: define a width smaller than its container */
+  width: auto; 
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+.button {
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: auto;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  display: block;
+}
+
+.button1:hover {box-shadow:0 8px 16px 0 rgba(0,0,0,0.6)}
+
+.button1 {border-radius: 8px;}
+
+.scrollLinks a{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+}
+
+.bio1 {
+    background-color:#505357;
+    width: 80%;
+    float: left;
+    margin: 10px;
+    min-height: 400px;
+}
+
+.bio2 {
+    background-color:#68696b;
+    width: 80%;
+    float: right;
+    margin: 10px;
+    min-height: 400px;
+}
+
+footer {
+    background-color: #212529;
+    color: white;
+    margin: auto;
+    text-align: center;
+    min-height: 140px;
+    padding-top: 40px;
+    width: 100%;
+    bottom: 0;
+    clear: both;
+}
+
+.highlight {
+    text-decoration: underline;
+    font-weight: bold;
 }
