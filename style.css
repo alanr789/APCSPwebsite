@@ -1,25 +1,21 @@
 body {
-    background-color: #393c40;
+    background-color: #1a3f9c;
     color: white;
 }
 
-.mainsection {
-    text-align: center;
+.mynav {
+    background-color:#0d2666;
 }
 
-.mainsection2 {
-    text-align: center;
-    clear: both;
-}
 
 .gridSystem {
-    background-color: #505357;
+    background-color: #0d2666;
     color: white;
     margin: 10px;
 }
 
 .gridSystem2 {
-    background-color: #505357;
+    background-color: #0d2666;
     color: white;
     margin: 10px;
 }
@@ -96,14 +92,41 @@ nav a:hover{
 
 .button1 {border-radius: 8px;}
 
+
+/* ------------ bio page ------------*/
+
+.mainsection {
+    text-align: center;
+}
+
+.mainsection2 {
+    text-align: center;
+    clear: both;
+}
+
 .scrollLinks a{
     text-decoration: none;
     color: black;
     padding: 20px;
 }
 
+.hob1:hover {
+    text-decoration:underline;
+    font-weight:bold;
+}
+
+.hob2:hover {
+    text-decoration:underline;
+    font-weight:bold;
+}
+
+.hob3:hover {
+    text-decoration:underline;
+    font-weight:bold;
+}
+
 .bio1 {
-    background-color:#505357;
+    background-color:#0d2666;
     width: 80%;
     float: left;
     margin: 10px;
@@ -111,7 +134,7 @@ nav a:hover{
 }
 
 .bio2 {
-    background-color:#68696b;
+    background-color:#0d2666;
     width: 80%;
     float: right;
     margin: 10px;
@@ -119,7 +142,7 @@ nav a:hover{
 }
 
 footer {
-    background-color: #212529;
+    background-color: #0d2666;
     color: white;
     margin: auto;
     text-align: center;
