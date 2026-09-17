@@ -10,14 +10,17 @@
         <title>Home</title>
         <link rel="icon" type="image/x-icon" href="https://codehs.com/uploads/9383f6599028b551161446c99acf1361">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="script.js" defer></script>
         <link rel="stylesheet" href="mystyles.css">
     </head>
   
     <body>
       
+      <!----------------------------------responsive navbar---------------------------------->
+      
         <nav class="mynav navbar navbar-expand-sm bg-gradient navbar-dark">
             <div class="container-fluid">
-                <a class="navbar-brand" href="index.html"><img src="https://codehs.com/uploads/9383f6599028b551161446c99acf1361" width="30px" height="30px"></a>
+                <a class="navbar-brand" href="index.html"><img class="rotate" src="https://codehs.com/uploads/9383f6599028b551161446c99acf1361" width="30px" height="30px"></a>
             
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
                     <span class="navbar-toggler-icon"></span>
@@ -53,20 +56,33 @@
       
         <hr>
         <div class="parallax">
-            <h1>Welcome to Alan's Website</h1>
+            <h1>Welcome to my Website</h1>
             <p>This is the Home Page</p>
             <button class="button button1" type="button" onclick="alert('Hello world!')">Click here to get started</button>
+            
         </div>
         
         <br>
+        
+        <div class="img-container">
+            <img src="https://static0.pocketlintimages.com/wordpress/wp-content/uploads/147828-laptops-feature-apple-macos-1015-catalina-features-news-and-release-date-image1-j3ml29rhpj.jpg" alt="." width="800px" height="450px">
+        </div>
+        
         <br>
-    
+        <nav class="bs-foot">
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3"> 
+                <p class="mb-0 text-body-secondary">&copy; 2026, by Alan Reyes</p> 
+                <a class="favi-f" href="index.html"><img class="rotate" src="https://codehs.com/uploads/9383f6599028b551161446c99acf1361" width="50px" height="50px"></a>
+                <ul class="nav col-md-4 justify-content-end"> 
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li> 
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li> 
+                    <li class="nav-item"><a href="https://granadahigh.livermoreschools.org" target="_blank" class="nav-link px-2 text-body-secondary">My School</a></li>
+                    <li class="nav-item"><a href="mailto:alan.rey@lvjusd.org" class="nav-link px-2 text-body-secondary">Send Email</a></li>
+                    <li class="nav-item"><a href="bio.html" class="nav-link px-2 text-body-secondary">About</a></li>
+                </ul> 
+            </footer> 
+        </nav>
+
     </body>
-  
-    <footer>
-        <p>Created by Alan Reyes</p>
-        <p><a href="https://granadahigh.livermoreschools.org/" target="_blank">My School</a></p>
-        <p><a href="mailto:alan.rey@lvjusd.org">Send Email</a></p>
-    </footer>
     
   </html>
