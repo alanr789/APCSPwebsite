@@ -1,38 +1,59 @@
+/*--------------------------------all pages--------------------------------------*/
+
+@media only screen and (max-width:980px) {
+    
+}
+
 body {
     background-color: #1a3f9c;
     color: white;
 }
 
+footer {
+    background-color: #0d2666;
+    color: white;
+    margin: auto;
+    text-align: center;
+    min-height: 140px;
+    padding-top: 40px;
+    padding-bottom:10px;
+    width: 100%;
+    bottom: 0;
+    clear: both;
+} 
+
+nav a:hover{
+    text-decoration: underline;
+    font-size:20px;
+}
+
+.highlight {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
 .mynav {
     background-color:#0d2666;
+    color:white;
+}
+
+.rotate:hover {
+    /* Apply the animation shorthand */
+    animation: spin 1s linear;
+}
+
+/* Define the animation sequence */
+@keyframes spin {
+    from {
+    transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
 
 
-.gridSystem {
-    background-color: #0d2666;
-    color: white;
-    margin: 10px;
-}
-
-.gridSystem2 {
-    background-color: #0d2666;
-    color: white;
-    margin: 10px;
-}
-
-.middletext {
-    background-color: #68696b;
-    color: white;
-    clear: both;
-    margin: 10px;
-}
-
-.middletext2 {
-    background-color: #68696b;
-    color: white;
-    clear: both;
-    margin: 10px;
-}
+/*--------------------home page---------------------*/
 
 .parallax {
   /* The image used */
@@ -50,27 +71,12 @@ body {
   text-align: center;
 }
 
-.parallax2 {
-    background-image: url("https://cdn.dribbble.com/userupload/10093675/file/original-1b21b37a22e06d64fb50e8658fa1d46e.jpg?resize=1600x1200");
-    min-height: 825px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat:no-repeat;
-    background-size: cover;
-    color: black;
-    text-align: center;
-}
-
 .img-container {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  /* Optional: define a width smaller than its container */
-  width: auto; 
+    text-align:center;
 }
 
-nav a:hover{
-    text-decoration: underline;
+.img-container:hover {
+    
 }
 
 .button {
@@ -92,8 +98,28 @@ nav a:hover{
 
 .button1 {border-radius: 8px;}
 
+.button1:hover {
+    background-color:#038052;
+    padding:20px 37px;
+}
+
+
 
 /* ------------ bio page ------------*/
+
+.middletext {
+    background-color: #0d2666;
+    color: white;
+    clear: both;
+    margin: 10px;
+}
+
+.middletext2 {
+    background-color: #0d2666;
+    color: white;
+    clear: both;
+    margin: 10px;
+}
 
 .mainsection {
     text-align: center;
@@ -102,6 +128,17 @@ nav a:hover{
 .mainsection2 {
     text-align: center;
     clear: both;
+}
+
+.parallax2 {
+    background-image: url("https://cdn.dribbble.com/userupload/10093675/file/original-1b21b37a22e06d64fb50e8658fa1d46e.jpg?resize=1600x1200");
+    min-height: 825px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    color: black;
+    text-align: center;
 }
 
 .scrollLinks a{
@@ -141,19 +178,18 @@ nav a:hover{
     min-height: 400px;
 }
 
-footer {
+/*---------------------projects page-----------------*/
+
+.gridSystem {
     background-color: #0d2666;
     color: white;
-    margin: auto;
-    text-align: center;
-    min-height: 140px;
-    padding-top: 40px;
-    width: 100%;
-    bottom: 0;
-    clear: both;
+    margin: 10px;
 }
 
-.highlight {
-    text-decoration: underline;
-    font-weight: bold;
+.gridSystem2 {
+    background-color: #0d2666;
+    color: white;
+    margin: 10px;
 }
+
+ /*----------------------------------------------------*/
