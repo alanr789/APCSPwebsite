@@ -103,6 +103,12 @@ nav a:hover{
     padding:20px 37px;
 }
 
+.iframe-container {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center;     /* Centers vertically (if the container has height) */
+  width: 100%;
+}
 
 
 /* ------------ bio page ------------*/
