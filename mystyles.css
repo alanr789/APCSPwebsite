@@ -1,8 +1,19 @@
 /*--------------------------------all pages--------------------------------------*/
 
-@media only screen and (max-width:980px) {
+@media (min-width:980px) {
+    body {
+        background-color:#9c1a1a;
+        color:white;
+    }
     
+    .mynav {
+        background-color:#660d0d;
+        color:white;
+    }
 }
+
+
+
 
 body {
     background-color: #1a3f9c;
@@ -197,5 +208,40 @@ nav a:hover{
     color: white;
     margin: 10px;
 }
+
+.scrollLink {
+    text-align:center;
+}
+
+.scrollLink a{
+    text-decoration:none;
+    color:white;
+    padding:20px;
+}
+
+.proj1:hover {
+    text-decoration:underline;
+    font-weight:bold;
+}
+
+.proj2:hover {
+    text-decoration:underline;
+    font-weight:bold;
+}
+
+.proj3:hover {
+    text-decoration:underline;
+    font-weight:bold;
+}
+.proj4:hover {
+    text-decoration:underline;
+    font-weight:bold;
+}
+
+.proj5:hover {
+    text-decoration:underline;
+    font-weight:bold;
+}
+
 
  /*----------------------------------------------------*/
